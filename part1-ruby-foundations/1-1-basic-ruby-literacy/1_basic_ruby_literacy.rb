@@ -21,5 +21,18 @@
 # keywords => 
 # method name => follow the same rules and conventions as local variables (except that they can end with ?, !, or =).
 # methods don't call attention to themselves as methods but rather blend into the texture of a program as expression that provide a value.
-
 # Ruby identifiers end
+
+
+
+# 1.1.4 method calls, messages, and Ruby objects
+# Ruby sees all data structures and values--from simple values like integers and string, to complex data structure like arrays--as *objects* 
+# every object is capable of understanding a certain set of messages
+# Message sending is achieved via the special *dot* operator.
+x = "100".to_i
+# the dot means that the message to_i is being sent to the string "100". The string "100" is called the receiver of the message.
+# Methods can take arguments, which are also objects. (Almost everything in Ruby is an object). Many programmers use parentheses in most or all method calls, just to be safe.
+# The whole universe of a Ruby program consists of objects and the messages that are sent to them.
+# THE ORIGIN OF OBJECTS IN CLASS
+# A class defines an objects' functionality, and every object is an instance of exactly one class. 
+# Although every Ruby object is an instance of a class, the concept of class is LESS important than the concept of object. That's because objects can change, acquiring methods and behaviors that weren't defined in their class.
