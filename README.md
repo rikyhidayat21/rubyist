@@ -1,10 +1,12 @@
 # Bismillah Rubyist
 
-Learning Ruby programming language from print out `Hello World` to the next level with TDD approach.
+Belajar bahasa pemrograman Ruby mulai dari `Hello World` sampai ke level selanjutnya dengan menggunakan metode TDD.
 
 ## Goals
 
-This project will have great structure for learning, for example:
-- Concept
-- Task
-- Implement with TDD
+Projek ini diharapkan bisa membantu teman-teman yang sedang atau ingin belajar Ruby, dengan rencana memiliki beberapa step:
+- Konsep
+- Tugas
+- Implementasi menggunakan TDD
+
+Dengan menggunakan metode diatas, diharapkan kita semua bisa belajar tidak hanya menghafal sintaksnya saja, tetapi bisa langsung mengimplementasikan ke dalam bentuk kode dengan mengerjakan tugas yang diberikan.
